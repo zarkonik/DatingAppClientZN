@@ -1,0 +1,42 @@
+
+
+.navContainer{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    position: absolute;
+    gap: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    
+    
+}
+
+.navContainer .linksContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    width: 100%;
+    
+}
+
+.linksContainer a{
+    margin-left: 30px;
+    
+    white-space: nowrap;
+}
+
+.navContainer > .loginContainer
+{
+    display: flex;
+    position: absolute;
+    left: 800px;
+   
+    flex-shrink: 1;
+    white-space: pre-line;
+}
+

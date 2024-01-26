@@ -1,0 +1,18 @@
+<div class="navContainer">
+    <div class="linksContainer">
+        <a>Dating app</a>
+        <a>Matches</a>
+        <a>Lists</a>
+        <a>Messages</a>
+    </div>
+    <div class="loginContainer">
+        <form #loginForm="ngForm" (ngSubmit)="login()" autocomplete="off">
+            <input name="username" [(ngModel)]="model.username" type="text" placeholder="Username"
+                class="usernameInput" />
+            <input name="password" [(ngModel)]="model.password" type="text" placeholder="Password"
+                class="passwordInput" />
+            <button class="loginButton" type="submit">Login</button>
+        </form>
+    </div>
+
+</div>
